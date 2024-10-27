@@ -5,7 +5,7 @@ import numpy as np
 from streamlit_drawable_canvas import st_canvas
 
 # Load the trained model
-model = tf.keras.models.load_model("digit_recognition_model.h5")
+model = tf.keras.models.load_model("digit_recognition_model.keras")
 #Streamlit app title and description
 st.title("Handwritten Digit Recognition")
 st.write("Draw a digit in the box below, and I'll tell you what it is!")
